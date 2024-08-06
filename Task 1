@@ -1,0 +1,141 @@
+This code is basicaly based on an e-commerce website.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My E-Commerce Website</title>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 0 10px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.product {
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">
+    <a href="#"><img src="c:\Users\Dell\OneDrive\Documents\codeteachlogo.webp" alt="CODETEACH logo"></a>
+</div>
+  <h1>Welcome to My Store</h1>
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Products</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="cart.html">Cart</a></li>
+      <li><a href="login.html">Login</a></li>
+    </ul>
+    <div class="search-bar">
+      <input type="search"  placeholder="search...">
+      <button>Search</button>
+      </div>
+  </nav>
+</header>
+<main>
+  <span>
+  <center><h1>Our Courses</h1>
+  </span>
+  <div>
+    <table border="1">
+    <tr> <td>
+  <section class="Course">
+    <img src="c:\Users\Dell\OneDrive\Documents\java logo.png" alt="java logo">
+    <h2>Java programming...</h2>
+    <p>Learn the basics of Java programming launage</p>
+    <P> Duraction: 4 months</P>
+    <p>Price: $600</p>
+    <a href="payment.html" class="btn">payment</a>
+    <button>Add to Cart</button>
+  </td> 
+    
+  </div>
+  <span>
+  
+<td>
+        <section class="Course">
+            <img src="c:\Users\Dell\OneDrive\Documents\C++ logo.png" alt="c++ logo">
+            <h2>C++ programming...</h2>
+            <p>Learn the basics of C++ programming launage</p>
+            <P> Duraction: 4 months</P>
+            <p>Price: $600</p>
+            <a href="payment.html" class="btn">payment</a>
+            <button>Add to Cart</button>
+            </td>
+              
+  </span> 
+    <div>
+    
+        <td>
+      <section class="Course">
+        <img src="c:\Users\Dell\OneDrive\Documents\php logo.png" alt="php logo">
+        <h2>PHP programming...</h2>
+        <p>Learn the basics of PHP programming launage</p>
+        <P> Duraction: 6 months</P>
+        <p>Price: $800</p>
+        <a href="payment.html" class="btn">payment</a>
+        <button>Add to Cart</button> 
+      </td>
+    
+      </div>
+      
+        <td>
+        <section class="Course">
+          <img src="c:\Users\Dell\OneDrive\Documents\python logo.png" alt="python logo">
+          <h2>Python programming...</h2>
+          <p>Learn the basics of Python programming launage</p>
+          <P> Duraction: 4 months</P>
+          <p>Price: $600</p>
+          <a href="payment.html" class="btn">payment</a>
+          <button>Add to Cart</button>
+        </tr></td>
+        </table>
+  </section>
+  <!-- Add more product sections here -->
+</main>
+<footer>
+  <p>&copy; 2024 My Store. All rights reserved.</p>
+</footer>
+</body>
+</html>
+```
