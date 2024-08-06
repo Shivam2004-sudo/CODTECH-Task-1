@@ -31,7 +31,7 @@ option: home , contect,cart, login
 
 Our course which we include  in website: 
 
-java About, pythone about, php about,c++ about like bascie teachng course and her price with pyment option and add cart option in box 
+java About, pythone about, php about,c++ about like bascie teachng course and her price with pyment option and add cart option in box .
 
 
 
